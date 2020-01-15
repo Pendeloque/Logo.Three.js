@@ -1,0 +1,23 @@
+{
+  "name": "logo.threejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npx http-server -o textures --cors=Authorization\" \"npx parcel src/index.html\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.0.2",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.24.4",
+    "three": "^0.112.1",
+    "three-orbitcontrols": "^2.110.3"
+  },
+  "dependencies": {
+    "orbit-controls-es6": "^2.0.1",
+    "textures": "^1.2.2"
+  }
+}
