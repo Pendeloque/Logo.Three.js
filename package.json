@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"npx http-server -o textures --cors=Authorization\" \"npx parcel src/index.html\""
+    "start": "concurrently \"npx parcel src/index.html --open\" \"npx http-server -o textures --cors=Authorization\""
   },
   "keywords": [],
   "author": "",
