@@ -12,6 +12,7 @@
   "devDependencies": {
     "budo": "^11.6.4",
     "concurrently": "^5.2.0",
+    "dot-prop": "^5.1.1",
     "parcel": "^1.12.4",
     "sass": "^1.26.10",
     "three": "^0.119.1",
