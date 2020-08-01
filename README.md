@@ -4,4 +4,4 @@
 - `npm install`
 - `npm start`
 
-![Screenshot](screenshot.png)
+![Logo Pendeloque](pendeloque.png)
