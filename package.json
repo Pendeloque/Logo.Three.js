@@ -4,16 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"npx parcel src/index.html --open\" \"npx http-server -o textures --cors=Authorization\""
+    "start": "npx parcel src/html/index.html --open"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "^5.0.2",
-    "parcel-bundler": "^1.12.4",
-    "sass": "^1.24.4",
-    "three": "^0.112.1",
+    "budo": "^11.6.4",
+    "concurrently": "^5.2.0",
+    "parcel": "^1.12.4",
+    "sass": "^1.26.10",
+    "three": "^0.119.1",
     "three-orbitcontrols": "^2.110.3"
   },
   "dependencies": {
