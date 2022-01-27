@@ -15,7 +15,7 @@
     "dot-prop": "^5.1.1",
     "parcel": "^1.12.4",
     "sass": "^1.26.10",
-    "three": "^0.119.1",
+    "three": "^0.137.0",
     "three-orbitcontrols": "^2.110.3"
   },
   "dependencies": {
